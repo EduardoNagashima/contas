@@ -2,5 +2,13 @@
   "type": "module",
   "dependencies": {
     "inquirer": "^11.1.0"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
   }
 }
